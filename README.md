@@ -24,7 +24,7 @@
 </p>
 
 <h3 align="center"> 
-🚧  Finalizado  🚧
+🚧  Em Desenvolvimento  🚧
 </h3>
 
 ### 📎 Features
@@ -35,62 +35,33 @@
 - [x] Setas de rolagem da lista
 - [x] Preview do título selecionado
 - [x] Trailer do filme/série
-- [x] Recomendações de filmes/séries
-- [x] Busca de Resultados
 
 ### 💻 Projeto
 
-UI Clone do serviço de streaming - Netflix, com o uso da API fornecida pelo The Movie Database (TMDB).
+UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em HTML, CSS e JavaScript, com foco em layout responsivo, interações e experiência do usuário.
 
 ### ✅ Demonstração
 
-<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/featured_movie.png" />
-<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/preview_movie.png" />
-<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/movie_rows.png" />
-
-### ⚙ Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://yarnpkg.com/).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+<!--<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/featured_movie.png" /> -->
+<!--<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/preview_movie.png" /> __>
+<!--<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/movie_rows.png" /> -->
 
 ### 📗 Rodando a Aplicação (web)
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/gustavo-nt/netflix-clone
-
-# Instale as dependências
-$ yarn ou npm
-
-# Execute a aplicação
-$ yarn ou npm start
-```
+Para visualizar o projeto em funcionamento, acesse:
+link
 
 ### 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- ReactJS
-- Typescript
-- Vite
-
-### 📕 Bibliotecas
-
-Esse projeto foi utilizou das seguintes lib e/ou pré-processadores:
-
-- react-dom
-- react-icons
-- tmdb
-- sass
-- jest
-- date-fns
-- react-query
-- babel-plugin-inline-react-svg
+- HTML
+- CSS
+- JavaScript
 
 ### ⚖ Direitos
 
-Todos direitos são reservados a Netflix e ao The Movie Database.
+Todos os direitos são reservados a Netflix.
 
 ### 📝 Licença
 
@@ -98,4 +69,4 @@ Esse projeto está sob a licença MIT.
 
 <hr/>
 
-Feito por Gustavo Teixeira
+Feito por Johann Jarmelo
