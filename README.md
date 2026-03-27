@@ -9,7 +9,7 @@
 <p align="center">Aplicação UI Clone Netflix</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/react%20version-1.0-informational"/>
+  <img src="https://img.shields.io/badge/version-1.0-informational"/>
   <img src="https://img.shields.io/badge/next%20version-latest-important" />
   <img src="https://img.shields.io/badge/last%20commit-March-blue" />
   <img src="https://img.shields.io/badge/license-MIT-success"/>
