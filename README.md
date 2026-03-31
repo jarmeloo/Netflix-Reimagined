@@ -6,7 +6,7 @@
     🚀 UI Clone
 </h1>
 
-<p align="center">Aplicação UI Clone Netflix</p>
+<p align="center">Netflix UI Clone</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0-informational"/>
