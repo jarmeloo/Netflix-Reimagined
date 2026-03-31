@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Home</title>
+    <link rel="stylesheet" href="catalogo.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/webp" href="../assets/favicon_inicio.webp" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar top" id="navbar">
+      <div class="navbar-left">
+        <img
+          class="logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix"
+        />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#" class="active">Início</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Jogos</a></li>
+            <li><a href="#">Bombando</a></li>
+            <li><a href="#">Minha lista</a></li>
+            <li><a href="#">Navegar por idiomas</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="navbar-right">
+        <i class="fas fa-search icon"></i>
+        <a href="../index.html" class="kids-link"></a>
+        <div class="nav-notification">
+          <i class="fas fa-bell icon"></i>
+          <span class="notification-badge">42</span>
+        </div>
+        <a
+          href="../index.html"
+          class="profile-menu"
+          style="text-decoration: none; color: inherit"
+        >
+          <img
+            class="profile-icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+            alt="Profile"
+          />
+          <i
+            class="fas fa-caret-down icon"
+            style="font-size: 14px; margin-left: 5px"
+          ></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+        <img src="capa.webp" alt="Poster Peaky Blinders" class="hero-poster" id="hero-poster">
+
+        <video class="hero-video" id="hero-video" muted playsinline>
+        <source src="./assets/banner.mp4" type="video/mp4">
+        </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <img class="hero-logo" src="pb.webp" alt="Logo do Filme">
+
+        <div class="hero-buttons">
+            <button class="btn-play">
+                <i class="fas fa-play"></i>
+                <span>Assistir</span>
+            </button>
+
+            <button class="btn-info">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                <span>Mais informações</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Sliders Container -->
+    <main class="sliders-container" id="main-content">
+      <!-- Javascript will inject the rows here -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <a href="#" target="_blank">
+          <p>Netflix Reimagined</p>
+        </a>
+        <ul class="footer-links">
+          <li><a href="#" target="_blank">Perguntas frequentes</a></li>
+          <li><a href="#" target="_blank">Centro de ajuda</a></li>
+          <li><a href="#" target="_blank">Conta</a></li>
+          <li><a href="#" target="_blank">Imprensa</a></li>
+          <li><a href="#" target="_blank">Relações com investidores</a></li>
+          <li><a href="#" target="_blank">Carreiras</a></li>
+          <li><a href="#" target="_blank">Formas de assistir</a></li>
+          <li><a href="#" target="_blank">Termos de uso</a></li>
+          <li><a href="#" target="_blank">Privacidade</a></li>
+          <li><a href="#" target="_blank">Preferências de cookies</a></li>
+          <li><a href="#" target="_blank">Informações corporativas</a></li>
+          <li><a href="#" target="_blank">Entre em contato</a></li>
+          <li><a href="#" target="_blank">Teste de velocidade</a></li>
+          <li><a href="#" target="_blank">Avisos legais</a></li>
+          <li><a href="#" target="_blank">Só na Netflix</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const heroPoster = document.getElementById('hero-poster');
+        const heroVideo = document.getElementById('hero-video');
+        
+        // Configurações
+        const tempoDeEsperaAntesDoVideo = 5000; // 5 segundos em milissegundos
+
+        // Função para iniciar o vídeo e esconder o poster
+        function iniciarVideo() {
+            // Adiciona a classe CSS para fazer o poster desaparecer suavemente
+            heroPoster.classList.add('hidden');
+            
+            // Tenta dar play no vídeo (navegadores exigem que esteja 'muted')
+            heroVideo.play().catch(error => {
+                console.error("Erro ao tentar reproduzir o vídeo automaticamente:", error);
+                // Se der erro (ex: navegador bloqueou), você pode tratar aqui
+            });
+        }
+
+        // Função para mostrar o poster novamente quando o vídeo acabar
+        function mostrarPoster() {
+            // Remove a classe CSS para fazer o poster reaparecer
+            heroPoster.classList.remove('hidden');
+            
+            // Opcional: Reinicia o vídeo para o começo para a próxima vez
+            heroVideo.currentTime = 0; 
+        }
+
+        // --- LÓGICA ---
+
+        // 1. Inicia o temporizador assim que a página carrega
+        setTimeout(iniciarVideo, tempoDeEsperaAntesDoVideo);
+
+        // 2. Adiciona um "escutador de eventos" para quando o vídeo terminar
+        heroVideo.addEventListener('ended', mostrarPoster);
+    });
+</script>
+</body>
+</html>
