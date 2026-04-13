@@ -47,8 +47,8 @@ UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em H
 
 ### 📗 Rodando a Aplicação (web)
 
-Para visualizar o projeto em funcionamento, acesse:
-link
+Para visualizar o projeto em funcionamento, acesse:  
+[Acessar](https://jarmeloo.github.io/Netflix-Reimagined/)
 
 ### 🚀 Tecnologias
 
