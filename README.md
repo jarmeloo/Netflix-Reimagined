@@ -8,11 +8,6 @@
 
 <p align="center">Netflix UI Clone</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-1.0-informational"/>
-  <img src="https://img.shields.io/badge/last%20commit-March-blue" />
-  <img src="https://img.shields.io/badge/license-MIT-success"/>
-</p>
 
 <p align="center">
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
