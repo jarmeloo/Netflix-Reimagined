@@ -6,10 +6,6 @@
     🚀 UI Clone
 </h1>
 
-<h3 align="center"> 
-🚧  Em Desenvolvimento  🚧
-</h3>
-
 ## 📎 Features
 
 - [x] Filme Destaque
