@@ -21,7 +21,7 @@
 🚧  Em Desenvolvimento  🚧
 </h3>
 
-### 📎 Features
+## 📎 Features
 
 - [x] Filme Destaque
 - [x] Filmes Originais Netflix
@@ -30,7 +30,7 @@
 - [x] Preview do título selecionado
 - [x] Trailer do filme/série
 
-### 💻 Projeto
+## 💻 Projeto
 
 UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em HTML, CSS e JavaScript, com foco em layout responsivo, interações e experiência do usuário.
 
@@ -39,7 +39,7 @@ UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em H
 Para visualizar o projeto em funcionamento, acesse:  
 [Acessar](https://jarmeloo.github.io/Netflix-Reimagined/)
 
-### 🚀 Tecnologias
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -47,11 +47,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-### ⚖ Direitos
+## ⚖ Direitos
 
 Todos os direitos são reservados a Netflix.
 
-### 📝 Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT.
 
