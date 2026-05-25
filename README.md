@@ -6,8 +6,6 @@
     🚀 UI Clone
 </h1>
 
-<p align="center">Netflix UI Clone</p>
-
 <h3 align="center"> 
 🚧  Em Desenvolvimento  🚧
 </h3>
