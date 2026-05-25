@@ -34,12 +34,6 @@
 
 UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em HTML, CSS e JavaScript, com foco em layout responsivo, interações e experiência do usuário.
 
-### ✅ Demonstração
-
-<!--<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/featured_movie.png" /> -->
-<!--<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/preview_movie.png" /> __>
-<!--<img src="https://github.com/gustavo-nt/netflix-clone/blob/master/public/github/movie_rows.png" /> -->
-
 ### 📗 Rodando a Aplicação (web)
 
 Para visualizar o projeto em funcionamento, acesse:  
