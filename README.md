@@ -32,6 +32,24 @@ UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em H
 Para visualizar o projeto em funcionamento, acesse:  
 [Acessar](https://jarmeloo.github.io/Netflix-Reimagined/)
 
+Ou, se preferir rodar localmente:
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Abra o arquivo:
+
+```bash
+index.html
+```
+3. Ou use uma extensão tipo **Live Server** no VS Code
+
+---
+
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
