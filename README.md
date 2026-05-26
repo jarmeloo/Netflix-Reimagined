@@ -6,6 +6,14 @@
     🚀 UI Clone
 </h1>
 
+---
+
+<p align="center">
+  <a href="#rodando-a-aplicação-(web)">Visualizar Projeto</a>
+</p>
+  
+---
+
 ## 📎 Features
 
 - [x] Filme Destaque
@@ -19,7 +27,7 @@
 
 UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em HTML, CSS e JavaScript, com foco em layout responsivo, interações e experiência do usuário.
 
-## 📗 Rodando a Aplicação (web)
+<h2 id="rodando-a-aplicação-(web)">📗 Rodando a Aplicação (web)</h2>
 
 Para visualizar o projeto em funcionamento, acesse:  
 [Acessar](https://jarmeloo.github.io/Netflix-Reimagined/)
