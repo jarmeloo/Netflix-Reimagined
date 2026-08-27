@@ -9,63 +9,61 @@
 ---
 
 <p align="center">
-  <a href="#rodando-a-aplicação-(web)">Visualizar Projeto</a>
+  <a href="#running-the-app-(web)">View Project</a>
 </p>
-  
+
 ---
 
 ## 📎 Features
 
-- [x] Filme Destaque
-- [x] Filmes Originais Netflix
-- [x] Filmes divididos em categorias: romance, ação, etc
-- [x] Setas de rolagem da lista
-- [x] Preview do título selecionado
-- [x] Trailer do filme/série
+- [x] Featured movie
+- [x] Netflix Originals
+- [x] Movies split into categories: romance, action, etc.
+- [x] List scroll arrows
+- [x] Preview of the selected title
+- [x] Movie/show trailer
 
-## 💻 Projeto
+## 💻 Project
 
-UI Clone Clone da interface - **Netflix**, desenvolvido para fins de estudo em HTML, CSS e JavaScript, com foco em layout responsivo, interações e experiência do usuário.
+UI Clone of the **Netflix** interface, built for study purposes in HTML, CSS, and JavaScript, with a focus on responsive layout, interactions, and user experience.
 
-<h2 id="rodando-a-aplicação-(web)">📗 Rodando a Aplicação (web)</h2>
+<h2 id="running-the-app-(web)">📗 Running the App (web)</h2>
 
-Para visualizar o projeto em funcionamento, acesse:  
-[Acessar](https://jarmeloo.github.io/Netflix-Reimagined/)
+To check out the project live, go to:
+[Access](https://jarmeloo.github.io/Netflix-Reimagined/)
 
-Ou, se preferir rodar localmente:
+Or, if you'd rather run it locally:
 
-1. Clone o repositório:
-
+1. Clone the repository:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/your-username/your-repository.git
 ```
 
-2. Abra o arquivo:
-
+2. Open the file:
 ```bash
 index.html
 ```
-3. Ou use uma extensão tipo **Live Server** no VS Code
+
+3. Or use an extension like **Live Server** in VS Code
 
 ---
 
+## 🚀 Technologies
 
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was built with the following technologies:
 
 - HTML
 - CSS
 - JavaScript
 
-## ⚖ Direitos
+## ⚖ Rights
 
-Todos os direitos são reservados a Netflix.
+All rights reserved to Netflix.
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
 <hr/>
 
-Feito por Johann Jarmelo
+Made by Johann Jarmelo
